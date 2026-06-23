@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+Pillow
+SpeechRecognition
+pydub
+opencv-python
+numpy
+pypdf
