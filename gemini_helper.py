@@ -17,8 +17,6 @@ def configure_gemini():
 
     if not api_key:
         # Default fallback key
-        import os
-
         api_key = os.getenv("GEMINI_API_KEY")
 
     genai.configure(api_key=api_key)
